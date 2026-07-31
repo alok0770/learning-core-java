@@ -22,6 +22,13 @@ public class Calculator {
         // 2. Using Scanner For User Input
         Scanner sc = new Scanner(System.in);
         System.out.print(" * User :-  Please Enter Your Choice : ");
+        while (! sc.hasNextInt()) {
+            System.out.println();
+            System.out.println(" [ERROR] Invalid Input - Please enter a numeric value only.");
+            System.out.println();
+            System.out.print(" * User :-  Please Enter Your Choice : ");
+            sc.next();
+        }
         int choice = sc.nextInt();
         System.out.println();
         System.out.println(" :- Your Choice " + choice);
