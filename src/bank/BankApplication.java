@@ -7,7 +7,7 @@ public class BankApplication {
     public static void main (String [] args)
     {
 
-        // Using Scaner for Input holder name and Balance
+        // Using Scanner for Input holder name and Balance
         Scanner sc = new Scanner (System.in);
         System.out.print("* Enter AccountHolder Name :  ");
         String accountHolder = sc.nextLine();
@@ -47,6 +47,7 @@ public class BankApplication {
             System.out.println();
             System.out.println("* Your Choice : " + choice);
             System.out.println();
+
 
             switch (choice){
                 case 1 :
