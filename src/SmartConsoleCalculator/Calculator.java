@@ -14,7 +14,7 @@ public class Calculator {
             System.out.println("[ERROR] Invalid Input - Please enter a numeric value only.");
             System.out.println();
             System.out.print(prompt);
-            sc.next(); // discard invalid input
+            sc.next(); // discard invalid input22
         }
 
         return sc.nextInt();
@@ -94,7 +94,7 @@ public class Calculator {
     static void division(double firstNum, double secondNum) {
         double result = firstNum / secondNum;
         System.out.println(LINE);
-        System.out.printf("* Result :- %.2f ", result); // %.2f limits output to 2 decimals
+        System.out.print("* Result :- " + result); // %.2f limits output to 2 decimals
         System.out.println();
         System.out.println(LINE);
     }
