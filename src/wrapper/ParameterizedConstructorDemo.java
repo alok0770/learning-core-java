@@ -1,32 +1,36 @@
-package wrapper;
- class Demo1 {
-    int salary;
-    int marks;
-    String age;
-
-    Demo1(int s , int m, String a)
-    {
-         salary = s;
-         marks = m;
-        age = a;
-    }
-
-
-     void fun2()
-     {
-         System.out.println("salary :- " + salary);
-         System.out.println("Student Marks :- " + marks);
-         System.out.println( "Age :- " + age);
-     }
-
-}
-public class ParameterizedConstructorDemo {
-    public static void main (String args[])
-    {
-        Demo1 d1 = new Demo1(3000, 45 ,"32");
-        Demo1 d2 = new Demo1 (64535, 45 , "43");
-        d1.fun2();
-        System.out.println("============================");
-        d2.fun2();
-    }
-}
+//package wrapper;
+//import jdk.swing.interop.SwingInterOpUtils;
+//
+//import java.util.Scanner;
+//
+//class Demo1 {
+//    String name;
+//    int age ;
+//    int marks;
+//    String subject ;
+//
+//    Demo1( String name , int age , int marks, String subject)
+//    {
+//        this.name = name ;
+//        this.age = age ;
+//        this.marks = marks;
+//        this.subject = subject ;
+//    }
+//
+//    void displayStudentDetails()
+//    {
+//        System.out.println("       STUDENT DETAILS "       );
+//        System.out.println("==============================");
+//        System.out.println(" Student Name :- " + name );
+//        System.out.println(" Student Age :- " + age );
+//        System.out.println(" Student Marks :- " + marks );
+//        System.out.println(" Student Subject :- " +subject);
+//        System.out.println("================================");
+//
+//    }
+//}
+//public class ParameterizedConstructorDemo{
+//    public static void main ( String args []){
+//        Scanner sc = new Scanner ( System.in);
+//    System.out.println(" ");
+//}
