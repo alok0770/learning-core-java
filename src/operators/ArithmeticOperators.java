@@ -3,6 +3,11 @@ package operators;
 public class ArithmeticOperators {
     public static void main (String [] args){
 
+        System.out.println("====================================");
+        System.out.println("       ARITHMETIC OPERATORS         ");
+        System.out.println("====================================");
+        System.out.println();
+
         int firstNumber = 63 ;
         int secondNumber = 56 ;
 
@@ -31,7 +36,7 @@ public class ArithmeticOperators {
         System.out.println("Division Result : " + divisionResult);
 
         // this variable stores the modulus result
-        int modulusResult = firstNumber % secondNumber ;
+        int modulusResult =  firstNumber % secondNumber ;
 
         // printing the modulus result
         System.out.println("Modulus Result : " + modulusResult);
