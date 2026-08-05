@@ -56,7 +56,7 @@ public class IfElse {
         } else {
             System.out.println("You are not a student.");
         }
-        
+
         input.close();
     }
 }
