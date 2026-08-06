@@ -21,7 +21,7 @@ Each folder inside `src/` covers a specific Java topic, with working code and sm
 | `mathclass/` | Using Java's built-in `Math` class |
 | `bank/` | Console-based bank menu app (practice with OOP, getters/setters) |
 | `shoppingcart/` | Console-based shopping cart application |
-| `smartConsoleCalculator/` | Multi-operation calculator with input validation |
+| `smartconsolecalculator/` | Multi-operation calculator with input validation |
 | `guessnumbergame/` | Number guessing game using `Random` and loops |
 | `madlibsgame/` | Mad Libs style story generator using `Scanner` |
 | `practice/` | Extra practice programs (e.g. compound interest calculator) |
