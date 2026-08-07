@@ -1,4 +1,4 @@
-package loops;
+package loopspractice;
 
 
 import java.util.Scanner;
