@@ -11,7 +11,7 @@ Each folder inside `src/` covers a specific Java topic, with working code and sm
 | `basics/` | Java syntax fundamentals — variables, data types, basic I/O |
 | `operators/` | Arithmetic, relational, and logical operators |
 | `conditionals/` | `if-else`, `switch` statements |
-| `loops/` | `for`, `while`, `do-while` loops |
+| `loopspractice/` | `for`, `while`, `do-while` loopspractice |
 | `arrays/` | Array creation, traversal, and manipulation |
 | `io/` | Taking user input using `Scanner` |
 | `inheritance/` | OOP inheritance — parent/child classes |
@@ -22,7 +22,7 @@ Each folder inside `src/` covers a specific Java topic, with working code and sm
 | `bank/` | Console-based bank menu app (practice with OOP, getters/setters) |
 | `shoppingcart/` | Console-based shopping cart application |
 | `smartconsolecalculator/` | Multi-operation calculator with input validation |
-| `guessnumbergame/` | Number guessing game using `Random` and loops |
+| `guessnumbergame/` | Number guessing game using `Random` and loopspractice |
 | `madlibsgame/` | Mad Libs style story generator using `Scanner` |
 | `practice/` | Extra practice programs (e.g. compound interest calculator) |
 
