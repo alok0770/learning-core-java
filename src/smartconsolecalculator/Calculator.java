@@ -100,13 +100,16 @@ public class Calculator {
                     System.out.print("Enter Your Second Number : ");
                     secondNum = input.nextDouble();
 
-                    result = firstNum / secondNum;
+                    if (secondNum == 0) {
+                        System.out.println("\n[ERROR] :- Can't Diveded BY Zero \n");
+                    } else {
+                        result = firstNum / secondNum;
 
-                    System.out.println("\n--------------------------");
-                    System.out.printf("Division Result : %.2f%n", result);
-                    System.out.println("--------------------------");
+                        System.out.println("\n--------------------------");
+                        System.out.printf("Division Result : %.2f%n", result);
+                        System.out.println("--------------------------");
+                    }
                 }
-
                 case 5 -> {
 
                     System.out.println("\n-> You Chose Modulus\n");
