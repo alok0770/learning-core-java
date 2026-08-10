@@ -1,4 +1,4 @@
-package guessnumbergame;
+package mini_projects;
 
 import java.util.Random;
 import java.util.Scanner;

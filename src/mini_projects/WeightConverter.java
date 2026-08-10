@@ -1,4 +1,4 @@
-package practice;
+package mini_projects;
 
 import java.util.Scanner;
 

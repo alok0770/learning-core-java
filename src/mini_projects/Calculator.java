@@ -1,4 +1,4 @@
-package smartconsolecalculator;
+package mini_projects;
 
 import java.util.Scanner;
 

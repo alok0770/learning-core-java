@@ -1,4 +1,4 @@
-package  madlibsgame;
+package  mini_projects;
 
 import java.util.Scanner;
 public class MadLibsGame {
