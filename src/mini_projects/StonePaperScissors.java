@@ -48,7 +48,7 @@ public class StonePaperScissors {
 
             System.out.println();
             System.out.println("----------------------------------------");
-            System.out.println("           GAME RESULT");
+            System.out.println("           GAME RESULT                  ");
             System.out.println("----------------------------------------");
             System.out.println("Your Choice    : " + playerChoice);
             System.out.println("Computer Choice: " + computerChoice);
