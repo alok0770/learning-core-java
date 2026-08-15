@@ -6,15 +6,33 @@ public class SuperKeyword {
 
         // Creating Person object
         Person person = new Person("Tom", "Holland");
+
+        System.out.println("========================================");
+        System.out.println("            PERSON DETAILS");
+        System.out.println("========================================");
         person.showName();
 
+
         // Creating Student object
-        Student student = new Student("Harry", "Potter", 7.0);
-        student.showStudentDetails();
+        Students students = new Students("Harry", "Potter", 7.0);
+
+        System.out.println();
+        System.out.println("----------------------------------------");
+        System.out.println("            STUDENT DETAILS");
+        System.out.println("----------------------------------------");
+        students.showStudentDetails();
+
 
         // Creating Employee object
         Employee employee = new Employee("Alok", "Rana", 120000);
+
+        System.out.println();
+        System.out.println("----------------------------------------");
+        System.out.println("           EMPLOYEE DETAILS");
+        System.out.println("----------------------------------------");
         employee.showEmployee();
+
+        System.out.println("========================================");
     }
 }
 
@@ -38,20 +56,20 @@ class Person {
     void showName() {
 
         System.out.println(
-                "Hello " + this.firstName + " " + this.lastName
+                "Name : " + this.firstName + " " + this.lastName
         );
     }
 }
 
 
 // Student inherits Person
-class Student extends Person {
+class Students extends Person {
 
     double gpa;
 
 
     // Student constructor
-    Student(String firstName, String lastName, double gpa) {
+    Students(String firstName, String lastName, double gpa) {
 
         // Calling parent class constructor using super()
         super(firstName, lastName);
@@ -65,9 +83,12 @@ class Student extends Person {
 
         // Accessing parent class variables using super
         System.out.println(
-                "Hello " + super.firstName + " "
+                "Name : " + super.firstName + " "
                         + super.lastName
-                        + ", your GPA is " + this.gpa
+        );
+
+        System.out.println(
+                "GPA  : " + this.gpa
         );
     }
 }
@@ -94,9 +115,12 @@ class Employee extends Person {
 
         // Accessing parent class variables using super
         System.out.println(
-                "Hello " + super.firstName + " "
+                "Name   : " + super.firstName + " "
                         + super.lastName
-                        + ", your salary is ₹" + this.salary
+        );
+
+        System.out.println(
+                "Salary : ₹" + this.salary
         );
     }
 }
