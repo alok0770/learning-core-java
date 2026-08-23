@@ -39,7 +39,7 @@ public class MusicPlayer {
             System.out.println("========================================");
             System.out.println("          JAVA MUSIC PLAYER");
             System.out.println("========================================");
-            System.out.println("Now Playing : Love Yourself...");
+            System.out.println("Now Playing : Love Yourself..");
             System.out.println();
 
             String response = "";

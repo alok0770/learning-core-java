@@ -48,8 +48,6 @@ public class CommandLineArgument{
         System.out.println("            Average Program         ");
         System.out.println("          ===================");
 
-        System.out.println("");
-
         System.out.println("1...   Average :- " + (firstNumber+secondNumber+thirdNumber)/3);
     }
 }
