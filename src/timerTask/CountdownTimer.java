@@ -25,7 +25,6 @@ public class CountdownTimer {
         // ==========================================
 
         TimerTask task = new TimerTask() {
-
             int count = response;
 
             @Override
