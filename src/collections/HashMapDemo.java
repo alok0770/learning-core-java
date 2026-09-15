@@ -115,5 +115,7 @@ public class HashMapDemo {
         }
 
         System.out.println("========================================");
+
+        System.out.println(map.get("Name"));
     }
 }
